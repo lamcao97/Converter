@@ -3,6 +3,7 @@ package com.example.cuoiki;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Datastorage.class);
+//                data.setBackgroundColor(Color.parseColor(String.valueOf(R.string.mau_xanh)));
                 startActivity(intent);
             }
         });

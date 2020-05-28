@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -17,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="5dp"
-            android:background="#5D0FAA"
+            android:background="@drawable/btn_corner_bot"
             android:gravity="center"
             android:shadowColor="#F1F1F1"
             android:text="Unit Converter"
@@ -37,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#0920F3"
+            android:background="@drawable/btn_corner_top"
             android:orientation="horizontal"
             android:weightSum="2">
 
@@ -106,7 +105,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#0920F3"
+            android:background="@drawable/btn_corner_mid"
             android:orientation="horizontal"
             android:weightSum="2">
 
@@ -173,7 +172,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#0920F3"
+            android:background="@drawable/btn_corner_bot_main"
             android:orientation="horizontal"
             android:weightSum="2">
 
