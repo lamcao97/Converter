@@ -8,13 +8,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity {
+    App app;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_giaodien1);
         /*setContentView(R.layout.temperature);*/
-
+        app = (App) getApplication();
 
         LinearLayout data = findViewById(R.id.data);
         data.setOnClickListener(new View.OnClickListener() {
@@ -48,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         length.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent intent = new Intent(MainActivity.this, Length.class);
                 startActivity(intent);
             }
@@ -64,4 +68,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void notify(View v) {
+//        Calendar calendar = Calendar.getInstance();
+//        if(calendar.get(Calendar.DAY_OF_MONTH)==2)
+            NotificationTask.createSampleNotification(app, 1, R.drawable.ic_notification, "Notifica", " BMI test at the beginning of each month !!!");
+    }
 }

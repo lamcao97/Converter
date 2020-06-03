@@ -100,4 +100,5 @@ public class BMI extends AppCompatActivity {
         return " " + day + "-" + (month + 1) + "-" + year //
                 + "\n" + hour + ":" + minute;
     }
+
 }

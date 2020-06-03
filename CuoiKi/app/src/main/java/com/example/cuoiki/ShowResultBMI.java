@@ -58,7 +58,9 @@ public class ShowResultBMI extends AppCompatActivity {
         load.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LoadData();
+                Intent intent = new Intent(ShowResultBMI.this, BieuDo.class);
+//                data.setBackgroundColor(Color.parseColor(String.valueOf(R.string.mau_xanh)));
+                startActivity(intent);
             }
         });
 
