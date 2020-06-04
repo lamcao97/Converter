@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "235375595318",
+    "firebase_url": "https://cuoiki-3445a.firebaseio.com",
+    "project_id": "cuoiki-3445a",
+    "storage_bucket": "cuoiki-3445a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235375595318:android:67b091278e770bb264ad97",
+        "android_client_info": {
+          "package_name": "com.example.cuoiki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235375595318-f71ha7r5k5e5mrvb4sdimimg0m2uoq3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARoPAJgkE3Kq9L3ZZ0RRhy80rtEYZcyzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235375595318-f71ha7r5k5e5mrvb4sdimimg0m2uoq3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
